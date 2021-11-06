@@ -2,9 +2,6 @@ import groovy.io.FileType
 
 String basePath = 'pipelines'
 
-folder(basePath) {
-    description 'DSL generated folder for pipelines'
-}
 
 
 def pipelines = []
